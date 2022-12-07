@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+h3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    margin-top: 10px;
+    color: whitesmoke;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background: #1B244A;
+    padding: 70px 80px;
+}
+.score-container{
+    width: 155px;
+    height: 120px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: black;  
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    color: #F94F6D;
+    font-weight: 400;
+    font-size: 90px;
+    padding-top: 15px;
+}
+
+button{
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    width: 45px;
+    height: 45px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.points-container{
+    width:155px;
+    align-content: space-between;
+}
